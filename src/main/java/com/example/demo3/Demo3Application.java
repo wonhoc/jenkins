@@ -6,15 +6,19 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class DemoApplication extends SpringBootServletInitializer {
+public class Demo3Application extends SpringBootServletInitializer
+{
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+
+        SpringApplication.run(Demo3Application.class, args);
     }
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(DemoApplication.class);
+        return builder.sources(Demo3Application.class);
     }
+
+
 
 }
