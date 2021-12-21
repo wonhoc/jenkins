@@ -7,5 +7,6 @@ public class indexController {
     public String hello(){
         return "Hello!!";
 
+
     }
 }
